@@ -194,6 +194,18 @@ body .card_right__button a:hover {
 	height: 120%;
 	transform: rotate(-45deg);
 }
+@media screen and (max-width:1350px){
+           .star {
+              display: block;
+
+           }
+        @media screen and (max-width:520px){
+           .star {
+              display: block;
+
+           }
+}}
+
 
 .star {
 	--star-color: var(--primary-color);
@@ -621,14 +633,4 @@ body .card_right__button a:hover {
 	}
 }
 
-        @media screen and (max-width:1350px){
-           .star {
-              display: block;
-
-           }
-        @media screen and (max-width:520px){
-           .star {
-              display: block;
-
-           }
-}}
+    
