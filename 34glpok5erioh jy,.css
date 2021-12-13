@@ -620,3 +620,15 @@ body .card_right__button a:hover {
 		opacity: 0.6;
 	}
 }
+
+        @media screen and (max-width:1350px){
+           .star {
+              display: block;
+
+           }
+        @media screen and (max-width:520px){
+           .star {
+              display: block;
+
+           }
+}}
